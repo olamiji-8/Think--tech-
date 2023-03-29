@@ -1,0 +1,168 @@
+.Courses {
+  height: 200vh;
+  width: 100%;
+  background-color: #fff2c1;
+  font-family: "Fantasque Sans Mono";
+  font-style: normal;
+  font-weight: 700;
+}
+.Courses_title {
+  font-size: 56px;
+  text-align: center;
+  line-height: 140.02%;
+  padding-top: 10%;
+}
+.Courses_subtitle {
+  font-size: 48px;
+
+  margin-left: 8%;
+}
+.Courses_flex {
+  display: flex;
+  margin: 0% 1% 0% 5%;
+}
+.Courses_stack {
+  font-family: "Fantasque Sans Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  margin-left: 5%;
+  width: 38%;
+}
+.Courses_description {
+  font-family: "Fantasque Sans Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #211c1c;
+  opacity: 0.6;
+  margin-top: -2px;
+  margin-left: 5%;
+  width: 60%;
+}
+.Courses_border {
+  background: #fdfdfd;
+  box-shadow: -2px 2px 9px rgba(0, 0, 0, 0.25);
+
+  margin: 2% 0% 2% 3%;
+
+  padding: 1% 2% 1% 1%;
+  width: 42%;
+}
+.Courses_addition {
+  width: 448px;
+  height: 67px;
+  margin-left: 8%;
+  font-family: "Fantasque Sans Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 140%;
+  padding-top: 4%;
+  text-align: center;
+}
+.Courses_subborder {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 25px 0px 25px;
+  gap: 10px;
+  background: #ffffff;
+  margin-left: 2%;
+  width: 80%;
+}
+.Courses_subflex {
+  display: flex;
+  margin: 0% 7% 0% 7%;
+}
+.Courses_titlep {
+  font-family: "Fantasque Sans Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #211c1c;
+}
+.Courses_descriptionp {
+  font-family: "Fantasque Sans Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #211c1c;
+  opacity: 0.5;
+  margin-top: -4px;
+}
+.Courses_dflex {
+  display: flex;
+ 
+}
+.Courses_imgflex {
+  margin-left: 26%;
+}
+.Courses_imgp {
+  width: 100%;
+  height: 40%;
+}
+.Courses_respone {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .Courses {
+    margin: 0px;
+    padding: top 1px;
+    height: 332vh;
+    width: 103rem;
+  }
+  .Courses_title {
+    font-size: 77px;
+    text-align: center;
+    line-height: 140.02%;
+    padding-top: 10%;
+  }
+  .Courses_subtitle {
+    text-align: center;
+    font-size: 63px;
+    margin-top: 14%;
+  }
+  .Courses_flex {
+    display: flex;
+    margin: 9% 2% 3% 15%;
+    flex-direction: column;
+  }
+  .Courses_border {
+    background: #fdfdfd;
+    box-shadow: -2px 2px 9px rgba(0, 0, 0, 0.25);
+    margin: 2% 0% 2% -5%;
+    padding: 16% 4% 4% 8%;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .Courses_dflex {
+    display: flex;
+    width: 100%;
+   
+  }
+  .Courses_description {
+    font-family: "Fantasque Sans Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #211c1c;
+    opacity: 0.6;
+    margin-top: -2px;
+    margin-left: 5%;
+    width: 59%;
+}
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .Courses {
+    width: 100%;
+    height: 165vh;
+    background-color: #fff2c1;
+    font-family: "Fantasque Sans Mono";
+    font-style: normal;
+    font-weight: 700;
+  }
+}

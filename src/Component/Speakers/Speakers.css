@@ -1,0 +1,73 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.Speakers {
+  width: 100%;
+  height: 100vh;
+  background-color: #cae6ff;
+  margin: 0%;
+}
+.Speakers_text {
+  font-family: "Fantasque Sans Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+  margin: 0px;
+  padding: 8%;
+}
+
+.Speakers_flex {
+  display: flex;
+  margin-left: 2%;
+  margin-right: 6%;
+  
+}
+
+.Speakers_textp {
+  display: grid;
+  margin-left: 90%;
+}
+.Speakers_name {
+  font-family: 'Fantasque Sans Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+.Speakers_post {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  text-align: center;
+}
+.Speaker_grid{
+ display: grid;
+ margin-left: 20%;
+}
+.product__img{
+  width: 100%;
+ 
+
+
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+  .Speakers {
+    width: 100%;
+    height: 171vh;
+    background-color: #cae6ff;
+    margin: 0%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+  .Speakers {
+    width: 100%;
+    height: 78vh;
+    background-color: #cae6ff;
+    margin: 0%;
+  }
+}

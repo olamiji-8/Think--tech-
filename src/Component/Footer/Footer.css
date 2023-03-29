@@ -1,0 +1,30 @@
+.Footer {
+  height: 50vh;
+  background-color: #cae6ff;
+  font-family: "Fantasque Sans Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #606060;
+  text-align: center;
+  
+}
+.Footer_text{
+    font-family: "Fantasque Sans Mono";
+    font-size: 13px;
+    font-weight: 200;
+    margin-top: -0.5%;
+    word-spacing: -3px;
+
+}
+.Footer_textp{
+    font-family: "Fantasque Sans Mono";
+    word-spacing: 10px;
+    font-size: 18px;
+    margin-left: 1%;
+    margin-top: -1px;
+}
+.Footer_img{
+  width: fit-content;
+}
